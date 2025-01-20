@@ -1,0 +1,66 @@
+# Node modules for workspaces
+node_modules
+**/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# macOS resource forks
+._*
+
+# Spotlight files
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.fseventsd
+
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# Vite build output
+fe/dist
+
+# Serverless Framework
+.backend
+.serverless
+.sls
+
+# AWS credentials (if stored locally for testing)
+.aws-sam
+.aws
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS-specific files
+*.bak
+*.tmp
+*.old
+
+# Build output for any subprojects
+dist/
+build/
+coverage/
+
+# Temporary files
+*.tmp
+*.cache
+temp/

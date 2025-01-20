@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "npm --workspace fe run dev",
+    "sls:local": "npx --workspace sls serverless offline",
     "deploy": "npm --workspace sls run deploy"
   },
   "workspaces": [

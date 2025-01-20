@@ -1,7 +1,6 @@
 {
   "name": "sls-mono",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "npm --workspace fe run dev",
     "deploy": "npm --workspace sls run deploy"
